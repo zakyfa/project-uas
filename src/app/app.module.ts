@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { MenuComponent } from './menu/menu.component';
+import { AppHeaderComponent } from './app-header/app-header.component';
+import { AppMenuComponent } from './app-menu/app-menu.component';
 import { DivisionComponent } from './division/division.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { FooterComponent } from './footer/footer.component';
+import { AppFooterComponent } from './app-footer/app-footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DivisionsAddComponent } from './divisions-add/divisions-add.component';
@@ -15,12 +15,12 @@ import { DivisionsAddComponent } from './divisions-add/divisions-add.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    MenuComponent,
+    AppHeaderComponent,
+    AppMenuComponent,
     DivisionComponent,
     DivisionsAddComponent,
     DashboardComponent,
-    FooterComponent
+    AppFooterComponent
   ],
   imports: [
     BrowserModule,
